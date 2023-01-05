@@ -12,7 +12,7 @@ import snscrape.modules.twitter as sntwitter
 
 print("Welcome To The Tweet Like Sorter")
 print("A csv file will be written in the current directory")
-query = str(input("Insert user to sort: ")).lower()
+query = str(input("Insert user to sort: "))
 # query = "elonmusk"
 scraper = sntwitter.TwitterUserScraper(query)
 
